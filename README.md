@@ -1,6 +1,1 @@
-# CustomSwerve
-This is our custom algorithm for swerve. Here are the developers:
-* Krishna Shah
-* Joshua Vigel
-* Matthew Caldarola
-* Jeevan Adhya Vinoth Babu 
+# 254 SDS Mag Modified Code - 3/13/23, 4:07 PM
