@@ -10,8 +10,8 @@ import frc.lib.ModuleConfiguration;
 import static frc.lib.rev.RevUtils.checkNeoError;
 
 public final class NeoDriveControllerFactoryBuilder {
-    private double nominalVoltage = Double.NaN;
-    private double currentLimit = Double.NaN;
+    private double nominalVoltage = 10.0;
+    private double currentLimit = 80.0;
 
     public NeoDriveControllerFactoryBuilder withVoltageCompensation(double nominalVoltage) {
         this.nominalVoltage = nominalVoltage;

@@ -8,12 +8,12 @@ import frc.lib.AbsoluteEncoder;
 
 public final class NeoSteerControllerFactoryBuilder {
     // PID configuration
-    private double pidProportional = Double.NaN;
-    private double pidIntegral = Double.NaN;
-    private double pidDerivative = Double.NaN;
+    private double pidProportional = 0.01;
+    private double pidIntegral = 0.0;
+    private double pidDerivative = 0.005;
 
-    private double nominalVoltage = Double.NaN;
-    private double currentLimit = Double.NaN;
+    private double nominalVoltage = 10.0;
+    private double currentLimit = 20.0;
 
     public NeoSteerControllerFactoryBuilder withPidConstants(double proportional, double integral, double derivative) {
         this.pidProportional = proportional;
